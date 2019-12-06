@@ -15,8 +15,12 @@ sucra_values(x, ...)
 \arguments{
 \item{x}{a \code{matrix} or a model object holding rank probabilities}
 
-\item{...}{Passed to \code{\link{rank_probabilities}}}
+\item{...}{currently not used}
 }
 \description{
 Extract scra values
 }
+\seealso{
+Other extractors: \code{\link{rank_probabilities}}
+}
+\concept{extractors}

@@ -21,3 +21,13 @@ A \code{matrix}
 A rank probability matrix is a matrix with all entries between 0 and 1. The
 rows represent treatments while the columns represent ranks.
 }
+\details{
+This function creats a rank probability matrix by reading information from a
+model object. For example if \code{nma} is the result from a call to
+\code{nma.ab.bin} from the \code{pcnetmeta} package, calling
+\code{rank_probabilities(nma)} returns a matrix.
+}
+\seealso{
+Other extractors: \code{\link{sucra_values}}
+}
+\concept{extractors}
